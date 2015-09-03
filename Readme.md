@@ -8,6 +8,8 @@ code: https://opensource.cit-ec.de/projects/icl
 
 ## Installation
 
+The instructions focus exclusively on installation via Homebrew on OSX. For instructions on how to build ICL from source for Linux and Windows, please refere to the [project pages]((https://opensource.cit-ec.de/projects/icl).
+
 ### Prerequisite
 
 Tab the required repository.
