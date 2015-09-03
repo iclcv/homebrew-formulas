@@ -18,6 +18,8 @@ Tab the required repository.
 brew tap iclcv/formulas
 ```
 
+After this you can continue with _either_ the basic, extended or the full installation instructions.
+
 ### Basic Installation
 
 The basic installation includes [Qt5](http://doc.qt.io/qt-5), [OpenCV](http://opencv.org), [ImageMagick](http://www.imagemagick.org), [Libav](https://libav.org/) and [Firewire (Camera)](https://en.wikipedia.org/wiki/IEEE_1394) support.
