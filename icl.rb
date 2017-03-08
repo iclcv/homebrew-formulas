@@ -30,7 +30,7 @@ class Icl < Formula
   depends_on "glew"
   depends_on "libav"
   depends_on "libdc1394"
-  depends_on "imagemagick"
+  depends_on "imagemagick@6"
 
   #depends_on "boost" if build.with?('extra') or build.with?('full')
   depends_on "protobuf" if build.with?('extra') or build.with?('full')

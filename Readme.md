@@ -8,7 +8,7 @@ code: https://opensource.cit-ec.de/projects/icl
 
 ## Installation
 
-The instructions focus exclusively on installation via [Homebrew](http://brew.sh) on OSX. For instructions on how to build ICL from source for Linux and Windows, please refere to the [project pages](https://opensource.cit-ec.de/projects/icl).
+The instructions focus exclusively on installation via [Homebrew](http://brew.sh) on OSX. For instructions on how to build ICL from source for Linux and Windows, please refer to the [project pages](https://opensource.cit-ec.de/projects/icl).
 
 ### Prerequisite
 
