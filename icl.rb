@@ -1,7 +1,7 @@
 class Icl < Formula
   desc "Image Component Library"
   homepage "http://www.iclcv.org"
-  version "9.12.0"
+  version "9.12.1"
   url "https://opensource.cit-ec.de/svn/icl/branches/osx", :using => :svn
   head "https://opensource.cit-ec.de/svn/icl/branches/osx", :using => :svn
   sha256 ""
