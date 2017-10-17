@@ -26,7 +26,7 @@ class Icl < Formula
   depends_on "jpeg"
   depends_on "libpng"
   depends_on "qt5"
-  depends_on "homebrew/science/opencv" => "with-ffmpeg"
+  depends_on "opencv" => "with-ffmpeg"
   depends_on "glew"
   depends_on "libav"
   depends_on "libdc1394"
