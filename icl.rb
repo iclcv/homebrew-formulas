@@ -36,7 +36,7 @@ class Icl < Formula
   depends_on "protobuf" if build.with?('extra') or build.with?('full')
   depends_on "corlab/formulas/rsb" if build.with?('extra') or build.with?('full')
   depends_on "libfreenect" if build.with?('extra') or build.with?('full')
-  depends_on "homebrew/science/pcl" if build.with?('extra') or build.with?('full')
+  depends_on "pcl" if build.with?('extra') or build.with?('full')
   depends_on "bullet" => "with-shared" if build.with?('extra') or build.with?('full')
 
   depends_on "libusb-compat" if build.with?('full')
