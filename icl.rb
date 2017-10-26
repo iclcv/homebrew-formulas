@@ -1,9 +1,9 @@
 class Icl < Formula
   desc "Image Component Library"
   homepage "http://www.iclcv.org"
-  version "9.12.1"
-  url "https://opensource.cit-ec.de/svn/icl/branches/osx", :using => :svn
-  head "https://opensource.cit-ec.de/svn/icl/branches/osx", :using => :svn
+  version "10.0.0"
+  url "https://github.com/iclcv/icl.git"
+  head "https://github.com/iclcv/icl.git"
   sha256 ""
   option "with-extra", "additional functionality based on rsb, protobuf, freenect, pcl and bullet"
   option "with-full", "extra features plus libusb, zmq and openni support"
