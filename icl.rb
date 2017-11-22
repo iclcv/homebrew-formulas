@@ -2,9 +2,9 @@ class Icl < Formula
   desc "Image Component Library"
   homepage "http://www.iclcv.org"
   version "10.0.0"
-  url "https://github.com/iclcv/icl.git"
+  url "https://github.com/iclcv/icl/archive/10.0.0.tar.gz"
   head "https://github.com/iclcv/icl.git"
-  sha256 ""
+  sha256 "4379241254a2893dee4f1869ab5e3d95d568293144de3fe72bb7a3ff8ce9671c"
   option "with-extra", "additional functionality based on rsb, protobuf, freenect, pcl and bullet"
   option "with-full", "extra features plus libusb, zmq and openni support"
 
