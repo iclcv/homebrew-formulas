@@ -31,7 +31,7 @@ class Icl < Formula
   depends_on "jpeg"
   depends_on "libpng"
   depends_on "qt5"
-  depends_on "opencv" => "with-ffmpeg"
+  depends_on "opencv@3" => "with-ffmpeg"
   depends_on "glew"
   depends_on "libav"
   depends_on "libdc1394"
@@ -64,6 +64,7 @@ class Icl < Formula
     # base features
     args = args + %W[
       -DBUILD_WITH_OPENCV=On
+      -DOPENCV_ROOT='#{HOMEBREW_PREFIX}/opt/opencv\@3/share/OpenCV/'
       -DBUILD_WITH_QT=On
       -DQT_ROOT='#{HOMEBREW_PREFIX}/opt/qt5'
       -DBUILD_WITH_OPENGL=On
