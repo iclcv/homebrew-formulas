@@ -1,16 +1,16 @@
 class Icl < Formula
   desc "Image Component Library"
   homepage "http://www.iclcv.org"
-  version "10.0.0"
-  url "https://github.com/iclcv/icl/archive/10.0.0.tar.gz"
+  version "10.0.2"
+  url "https://github.com/iclcv/icl/archive/10.0.2.tar.gz"
   head "https://github.com/iclcv/icl.git"
-  sha256 "4379241254a2893dee4f1869ab5e3d95d568293144de3fe72bb7a3ff8ce9671c"
+  sha256 "c5e4c768fecd18bd5c0ccfde6c1583818c66b2d79befcf2d27d2f0074214826d"
   option "with-extra", "additional functionality based on rsb, protobuf, freenect, pcl and bullet"
   option "with-full", "extra features plus libusb, zmq and openni support"
 
   bottle do
-    root_url "https://github.com/iclcv/icl/releases/download/10.0.0"
-    sha256 "c5e4c768fecd18bd5c0ccfde6c1583818c66b2d79befcf2d27d2f0074214826d" => :high_sierra
+    root_url "https://github.com/iclcv/icl/releases/download/10.0.2"
+    sha256 "3aaef3ebef4d0ed6694dc000910378f0f658cda11f3dc10184b54fd073e715c3" => :mojave
   end
 
   # # not in homebrew
