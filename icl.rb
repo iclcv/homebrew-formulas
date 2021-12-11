@@ -8,11 +8,6 @@ class Icl < Formula
   option "with-extra", "additional functionality based on rsb, protobuf, freenect, pcl and bullet"
   option "with-full", "extra features plus libusb, zmq and openni support"
 
-  bottle do
-    root_url "https://github.com/iclcv/icl/releases/download/10.0.2"
-    sha256 "3aaef3ebef4d0ed6694dc000910378f0f658cda11f3dc10184b54fd073e715c3" => :mojave
-  end
-
   # # not in homebrew
   # -DBUILD_WITH_XINE=On
   # -DBUILD_WITH_V4L=On
